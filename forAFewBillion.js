@@ -5,4 +5,4 @@ for (x=1;x<=days;x++){
     console.log(amt+" - "+x);
     amt=amt+amt;
 }
-console.log("Total amount for "+days+" is $"+amt);
+// console.log("The total of "+x+" days to generated total amount is $"+amt);

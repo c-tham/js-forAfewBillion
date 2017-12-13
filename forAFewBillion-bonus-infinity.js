@@ -1,11 +1,11 @@
-var days=99;
+var days=9999;
 var amt=0.01
 
 for (x=1;x<=days;x++){
     console.log(amt+" - "+x);
     amt=amt+amt;
-    if (amt > Infinity) {
+    if (amt == Infinity) {
         break;
     }
 }
-console.log("Total amount for "+x+" is $"+amt);
+console.log("The total of "+x+" days to generated total amount is $"+amt);

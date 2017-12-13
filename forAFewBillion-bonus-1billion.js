@@ -8,4 +8,4 @@ for (x=1;x<=days;x++){
         break;
     }
 }
-console.log("Total amount for "+x+" is $"+amt);
+console.log("The total of "+x+" days to generated total amount is $"+amt);
